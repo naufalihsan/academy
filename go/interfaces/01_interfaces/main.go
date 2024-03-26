@@ -17,6 +17,7 @@ type MyType int
 func (m MyType) Function1() {
 	fmt.Println("MyType run Function1()")
 }
+
 func (m MyType) Function2(x int) int {
 	return int(m) * x * 2
 }
